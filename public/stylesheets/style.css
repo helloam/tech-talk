@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: black;
+  background-color: rgb(92, 180, 192);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-header button.delete,
+button.edit {
+  float: right;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color .1s;
+}
+
+a:hover {
+  color: rgb(226, 125, 67);
+}
+
+button {
+  background-color: white;
+  border: 0;
+  padding: 1%;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.post-list {
+  margin: 0;
+  padding: 0;
+}
+
+textarea, input {
+  padding: .5%;
+  border-radius: 5px;
+  border: 1px solid grey
+}
+
+textarea:focus, input:focus {
+  outline: none;
+  border: 1px solid rgb(120, 167, 189);
+}
+
+textarea {
+  min-width: 50%;
+  min-height: 100px;
+}
+
+form > div {
+  margin-bottom: 2%;
+}
+
+form label {
+  display: block;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1%;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+main {
+  flex: 1;
+  padding: 2% 4%;
+}
