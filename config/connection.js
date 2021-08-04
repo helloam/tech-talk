@@ -1,5 +1,4 @@
 const Sequelize = require('sequelize');
-//const PORT = process.env.PORT || 3001;
 
 require('dotenv').config();
 
